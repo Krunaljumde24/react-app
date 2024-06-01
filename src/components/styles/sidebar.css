@@ -1,0 +1,23 @@
+.sidebar {
+  max-width: 250px;
+  min-height: 670px;
+}
+
+.sidebar > ul {
+  list-style: none;
+  padding: 20px;
+}
+
+ul > li {
+  /* margin-left: auto; */
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 7px;
+  height: 40px;
+  padding: 5px;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
